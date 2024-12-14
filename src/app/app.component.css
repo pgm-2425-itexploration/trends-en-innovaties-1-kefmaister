@@ -1,0 +1,28 @@
+:host {
+  --content-padding: 10px;
+}
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+.dark-mode {
+  --bg-color: black;
+  --text-color: white;
+}
+.brand-name {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+header {
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+.content {
+  padding: var(--content-padding);
+}
